@@ -1,0 +1,68 @@
+.about {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__content {
+    display: flex;
+
+    padding-top: 12.6vh;
+    padding-bottom: 14.8vh;
+
+    &__left {
+      display: flex;
+      padding-left: 14vw;
+      width: 35%;
+
+      &-img {
+        width: 88%;
+      }
+    }
+
+    &__right {
+      width: 36%;
+      margin-left: 4.6vw;
+      padding-top: 27px;
+      &__title {
+        font-family: "MontserratBold";
+        text-transform: uppercase;
+        font-weight: 800;
+
+        &-first {
+          font-size: 22px;
+        }
+
+        &-second {
+          font-size: 17px;
+        }
+      }
+
+      &__text {
+        font-family: "MontserratRegular";
+        font-size: 20px;
+        padding-top: 19px;
+        line-height: 27px;
+
+        &-first {
+          padding-top: 19px;
+          line-height: 27px;
+        }
+
+        &-second {
+          padding-top: 33px;
+          padding-bottom: 34px;
+        }
+
+        &-third {
+          padding-top: 15px;
+        }
+        &-four {
+          padding-top: 3px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.header {
+  &__conatiner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 302px;
+      margin-top: 31.3vh;
+
+      &__img {
+        width: 68vw;
+        margin-top: 10px;
+      }
+    }
+
+    &__juiceGlass {
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 62.5vh;
+      right: 16.4vw;
+      width: 113px;
+      width: 5.6vw;
+      height: 46px;
+      height: 9.5vh;
+    }
+
+    &__btn {
+      font-size: 21px;
+      font-size: 1.4vw;
+      font-family: "MontserratRegular";
+      color: rgb(51, 51, 51);
+      text-transform: uppercase;
+      margin-top: 14.7vh;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 1px;
+      border: 2px solid black;
+      width: 228px;
+      height: 48px;
+      cursor: pointer;
+    }
+
+    &__logo {
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 10.2vw;
+      top: 6.8vh;
+      width: 113px;
+      width: 7.8vw;
+      height: 46px;
+      height: 5vh;
+      cursor: pointer;
+    }
+  }
+}
+
+.headerText {
+  font-size: 48px;
+  font-size: 3.25vw;
+  line-height: 4.1vw;
+  font-family: "MontserratBold";
+  color: rgb(51, 51, 51);
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0 8px;
+}
+
+.blueBlock {
+  background-color: rgba(118, 244, 234, 0.5);
+  padding: 0 5px;
+}

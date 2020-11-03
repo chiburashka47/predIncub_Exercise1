@@ -1,14 +1,63 @@
+@font-face {
+  font-family: "MontserratBold";
+  src: url("../style/fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("../style/fonts/Montserrat-Medium.ttf");
+}
+
 body {
-  height: 100%;
-  width: 100%;
+  height: 200vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
-.headerTitle {
-  color: red;
-  font-size: 99px;
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.pageTitle {
+  align-items: center;
+  padding-top: 12.7vh;
+
+  &-bold {
+    font-family: "MontserratBold";
+    font-weight: 800;
+    font-size: 2.88vw;
+    text-transform: uppercase;
+  }
+
+  &-regular {
+    font-family: "MontserratRegular";
+    text-transform: uppercase;
+    font-size: 1.47vw;
+  }
+}
+
+@import "../src/Components/Header/style/header.scss";
+@import "../src/Components/AboutUs/style/aboutUs.scss";
+@import "../src/Components/Works/style/works.scss";
+@import "../src/Components/team/style/team.scss";
+@import "../src/Components/Contacts/style/contacts.scss";
+@import "../src/Components/Footer/style/footer.scss";

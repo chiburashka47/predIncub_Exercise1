@@ -1,0 +1,17 @@
+.works {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 12.7vh;
+    padding-bottom: 12.2vh;
+
+    &__elem {
+      flex: 0 0 26%;
+      padding: 0 5px 8px 5px;
+      &-img {
+        width: 99%;
+      }
+    }
+  }
+}
