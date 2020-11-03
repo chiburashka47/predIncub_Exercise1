@@ -1,4 +1,2 @@
-import example from "./Components/main/main";
 import "../style/index.scss";
-
-example();
+import "./Components/Footer/footer";

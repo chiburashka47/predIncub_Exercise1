@@ -1,5 +1,38 @@
 .footer {
   width: 100%;
   height: 314px;
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(38, 43, 46);
+  align-items: center;
+
+  &__text {
+    padding-top: 86px;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+  }
+
+  &__content {
+    padding-top: 16px;
+    &__elem {
+      background-color: rgb(66, 70, 72);
+      color: #cccccc;
+      display: flex;
+      transition: 0.5s;
+      cursor: pointer;
+      width: 45px;
+      height: 39px;
+      margin: 0 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background-color: rgb(110, 238, 238);
+        color: black;
+      }
+
+      &-img {
+        font-size: 20px;
+      }
+    }
+  }
 }
