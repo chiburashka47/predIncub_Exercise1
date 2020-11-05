@@ -7,4 +7,45 @@
   flex-direction: column;
   height: 99vh;
   margin-top: -45.4vh;
+
+  &__content {
+    padding: 37vh 10.3vw 0 10.2vw;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    height: 49vh;
+
+    &__left {
+      height: 100%;
+      width: 53.8%;
+      background-color: rgba(75, 90, 99, 0.71);
+
+      &__container {
+        padding: 15px 30px 20px 29px;
+
+        &__input {
+          background: transparent;
+          border: none;
+          color: #cccccc;
+          border-bottom: 1px solid #cccccc;
+          height: 60px;
+          font-size: 15px;
+
+          &::-webkit-input-placeholder {
+            color: #cccccc;
+            margin: 5px 0 0 2px;
+          }
+
+          &-big {
+            height: 132px;
+          }
+        }
+      }
+    }
+
+    &__right {
+      height: 100%;
+      width: 44%;
+      background-color: rgba(75, 90, 99, 0.71);
+    }
+  }
 }
