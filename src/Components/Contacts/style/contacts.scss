@@ -134,6 +134,38 @@
       &__right {
         margin-bottom: 50px;
         margin-top: 50px;
+        width: 80%;
+
+        &__container {
+          &__map {
+            padding: 15px 0 0 0;
+          }
+        }
+      }
+
+      &__left {
+        width: 80%;
+        &__container {
+          &__btn {
+            width: 80%;
+            margin: 30px auto 0 auto;
+            font-size: 90%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-height: 750px) {
+  .contacts {
+    height: auto;
+    &__content {
+      height: 100%;
+      padding-bottom: 50px;
+
+      &__left {
+        height: auto;
       }
     }
   }
