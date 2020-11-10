@@ -3,7 +3,8 @@ let slider = document.querySelector(".works__content__slider"),
   img = document.querySelectorAll(".works__content__elem-img"),
   right = document.querySelector(".works__content__slider__arrow-right"),
   left = document.querySelector(".works__content__slider__arrow-left"),
-  slideIndex = 1;
+  slideIndex = 1,
+  pathname = window.location.pathname;
 
 const changeImg = (n) => {
   if (n > img.length) {
@@ -25,7 +26,7 @@ img.forEach((elem, index) => {
   elem.addEventListener("click", (item) => {
     slider.classList.toggle("active");
     slideIndex = index + 1;
-    bigImg.src = `../src/Components/Works/style/${index}.png`;
+    bigImg.src = `./src/Components/Works/style/${index}.png`;
   });
 });
 
