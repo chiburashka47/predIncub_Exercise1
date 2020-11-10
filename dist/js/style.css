@@ -61,16 +61,17 @@ input {
   flex-direction: column;
 }
 .header__conatiner__text {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 302px;
-  margin-top: 31.5vh;
-}
-.header__conatiner__text__img {
-  width: 68vw;
-  margin-top: 10px;
+  margin-top: 32.5vh;
+  font-size: 3.1vw;
+  letter-spacing: 1.5px;
+  line-height: 4.1vw;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0 8px;
 }
 .header__conatiner__juiceGlass {
   background-image: url(460775173dae45bea1612c933abf1e2f.png);
@@ -116,28 +117,12 @@ input {
   height: 5vh;
   cursor: pointer;
 }
-
-.headerText {
-  font-size: 48px;
-  font-size: 3.25vw;
-  line-height: 4.1vw;
-  font-family: "Montserrat", sans-serif;
-  color: #333333;
-  font-weight: 800;
-  text-transform: uppercase;
-  padding: 0 8px;
-}
-
-.blueBlock {
-  background-color: rgba(118, 244, 234, 0.5);
+.header__conatiner .block {
+  background-color: rgba(118, 244, 234, 0.8);
   padding: 0 5px;
 }
 
 @media screen and (max-width: 800px) {
-  .header__conatiner__text {
-    margin-top: .header__conatiner__text __img;
-    margin-top-width: 90vw;
-  }
   .header__conatiner__logo {
     width: 20vw;
   }
