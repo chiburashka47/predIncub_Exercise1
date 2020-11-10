@@ -1,4 +1,5 @@
 .contacts {
+  background-image: url("../src/Components/Contacts/style/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -12,7 +13,6 @@
     padding: 37vh 10.3vw 0 10.2vw;
     width: -webkit-fill-available;
     justify-content: space-between;
-    height: 49.3vh;
 
     &__left {
       height: 100%;
@@ -22,7 +22,7 @@
       &__container {
         padding: 15px 30px 20px 29px;
         &__row {
-          border-bottom: 1px solid #cccccc;
+          border-bottom: 1px solid $c-gray;
           height: 60px;
 
           &-big {
@@ -32,15 +32,15 @@
           &__input {
             background: transparent;
             border: none;
-            color: #cccccc;
+            color: $c-gray;
             font-size: 15px;
             width: 100%;
             margin: 30px 0 0 7px;
-            font-family: "Raleway", sans-serif;
+            font-family: $ff-desk;
 
             &::-webkit-input-placeholder {
-              color: #cccccc;
-              font-family: "Raleway", sans-serif;
+              color: $c-gray;
+              font-family: $ff-desk;
             }
 
             &-big {
@@ -50,13 +50,13 @@
         }
 
         &__btn {
-          font-family: "Montserrat", sans-serif;
+          font-family: $ff-montser;
           border: 2px solid black;
           border-radius: 2px;
           font-size: 20px;
           font-weight: 600;
           letter-spacing: 0.5px;
-          color: rgba(0, 0, 0, 0.7);
+          color: $c-blackOpacity;
           margin: 38px 0 0 2px;
           width: 244px;
           height: 53px;
@@ -68,13 +68,13 @@
           cursor: pointer;
 
           &:hover {
-            border-color: #6eeee4;
-            background-color: #6eeee4;
+            border-color: $c-aqua;
+            background-color: $c-aqua;
           }
         }
       }
     }
-    font-family: "Raleway", sans-serif;
+    font-family: $ff-desk;
     &__right {
       height: 100%;
       width: 44%;

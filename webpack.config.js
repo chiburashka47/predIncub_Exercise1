@@ -1,6 +1,6 @@
 const path = require("path");
 const miniCss = require("mini-css-extract-plugin");
-const ASSET_PATH = process.env.ASSET_PATH || "/";
+const ASSET_PATH = process.env.ASSET_PATH || "";
 
 module.exports = {
   mode: "development",

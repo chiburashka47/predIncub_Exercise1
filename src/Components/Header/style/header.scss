@@ -1,5 +1,6 @@
 .header {
   &__conatiner {
+    background-image: url("../src/Components/Header/style/Bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -23,6 +24,7 @@
     }
 
     &__juiceGlass {
+      background-image: url("../src/Components/Header/style/Glass.png");
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
@@ -36,7 +38,7 @@
 
     &__btn {
       font-size: 21px;
-      font-family: "MontserratRegular";
+      font-family: $ff-montser;
       color: rgb(51, 51, 51);
       text-transform: uppercase;
       margin-top: 14.7vh;
@@ -50,12 +52,13 @@
       transition: 0.5s;
 
       &:hover {
-        border-color: #6eeee4;
-        background-color: #6eeee4;
+        border-color: $c-aqua;
+        background-color: $c-aqua;
       }
     }
 
     &__logo {
+      background-image: url("../src/Components/Header/style/SHOPNO.png");
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
@@ -74,7 +77,7 @@
   font-size: 48px;
   font-size: 3.25vw;
   line-height: 4.1vw;
-  font-family: "MontserratBold";
+  font-family: $ff-montser;
   color: rgb(51, 51, 51);
   font-weight: 800;
   text-transform: uppercase;

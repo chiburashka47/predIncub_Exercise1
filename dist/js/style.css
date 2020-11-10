@@ -51,6 +51,7 @@ input {
 }
 
 .header__conatiner {
+  background-image: url(8e9aa47b308509d4c2ea37dafadd782c.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -72,6 +73,7 @@ input {
   margin-top: 10px;
 }
 .header__conatiner__juiceGlass {
+  background-image: url(460775173dae45bea1612c933abf1e2f.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -84,7 +86,7 @@ input {
 }
 .header__conatiner__btn {
   font-size: 21px;
-  font-family: "MontserratRegular";
+  font-family: "Montserrat", sans-serif;
   color: #333333;
   text-transform: uppercase;
   margin-top: 14.7vh;
@@ -102,6 +104,7 @@ input {
   background-color: #6eeee4;
 }
 .header__conatiner__logo {
+  background-image: url(6419f1128f30418a9db95acdc32f80d4.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -118,7 +121,7 @@ input {
   font-size: 48px;
   font-size: 3.25vw;
   line-height: 4.1vw;
-  font-family: "MontserratBold";
+  font-family: "Montserrat", sans-serif;
   color: #333333;
   font-weight: 800;
   text-transform: uppercase;
@@ -140,6 +143,7 @@ input {
   }
 }
 .about {
+  background-image: url(14c38244ea59ad21ac2d6605d2247292.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -306,6 +310,7 @@ input {
   }
 }
 .team {
+  background-image: url(14c38244ea59ad21ac2d6605d2247292.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -394,6 +399,7 @@ input {
 }
 
 .contacts {
+  background-image: url(ae69c60d2350b1487ebeb5e13250cc5d.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -407,7 +413,6 @@ input {
   padding: 37vh 10.3vw 0 10.2vw;
   width: -webkit-fill-available;
   justify-content: space-between;
-  height: 49.3vh;
   font-family: "Raleway", sans-serif;
 }
 .contacts__content__left {

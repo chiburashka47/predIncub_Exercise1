@@ -26,6 +26,14 @@ input {
   margin: 0;
 }
 
+$ff-montser: "Montserrat", sans-serif;
+$ff-meri: "Merriweather", serif;
+$ff-desk: "Raleway", sans-serif;
+
+$c-gray: #cccccc;
+$c-blackOpacity: rgba(0, 0, 0, 0.7);
+$c-aqua: #6eeee4;
+
 .row {
   display: flex;
   flex-direction: row;
@@ -41,14 +49,14 @@ input {
   padding-top: 12.9vh;
 
   &-bold {
-    font-family: "Montserrat", sans-serif;
+    font-family: $ff-montser;
     font-weight: 800;
     font-size: 2.6vw;
     text-transform: uppercase;
   }
 
   &-regular {
-    font-family: "Merriweather", serif;
+    font-family: $ff-meri;
     text-transform: uppercase;
     font-size: 1.34vw;
     padding-top: 3px;

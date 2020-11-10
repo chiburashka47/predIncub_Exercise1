@@ -9,14 +9,14 @@
     color: #999999;
     font-size: 17px;
     letter-spacing: -0.5px;
-    font-family: "Raleway", sans-serif;
+    font-family: $ff-desk;
   }
 
   &__content {
     padding-top: 16px;
     &__elem {
       background-color: rgb(66, 70, 72);
-      color: #cccccc;
+      color: $c-gray;
       display: flex;
       transition: 0.5s;
       cursor: pointer;
