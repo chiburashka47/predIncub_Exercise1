@@ -508,8 +508,8 @@ input {
     height: auto;
   }
   .contacts__content__right {
-    margin-top: 50px;
     margin-bottom: 50px;
+    margin-top: 50px;
   }
 }
 .footer {
