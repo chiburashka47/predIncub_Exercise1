@@ -5,9 +5,11 @@
   align-items: center;
 
   &__text {
-    padding-top: 86px;
-    color: rgb(153, 153, 153);
-    font-size: 18px;
+    padding-top: 90px;
+    color: #999999;
+    font-size: 17px;
+    letter-spacing: -0.5px;
+    font-family: "Raleway", sans-serif;
   }
 
   &__content {

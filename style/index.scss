@@ -22,6 +22,14 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -42,16 +50,17 @@ code {
   padding-top: 12.9vh;
 
   &-bold {
-    font-family: "MontserratBold";
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
-    font-size: 2.88vw;
+    font-size: 2.6vw;
     text-transform: uppercase;
   }
 
   &-regular {
-    font-family: "MontserratRegular";
+    font-family: "Merriweather", serif;
     text-transform: uppercase;
-    font-size: 1.47vw;
+    font-size: 1.34vw;
+    padding-top: 3px;
   }
 }
 
