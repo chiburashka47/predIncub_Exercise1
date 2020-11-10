@@ -70,3 +70,15 @@ input {
 @import "../src/Components/team/style/team.scss";
 @import "../src/Components/Contacts/style/contacts.scss";
 @import "../src/Components/Footer/style/footer.scss";
+
+@media screen and(max-width:800px) {
+  .pageTitle {
+    &-bold {
+      font-size: 4.6vw;
+    }
+
+    &-regular {
+      font-size: 2.34vw;
+    }
+  }
+}

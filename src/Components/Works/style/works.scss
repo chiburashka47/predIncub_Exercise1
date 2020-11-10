@@ -64,3 +64,25 @@
     }
   }
 }
+
+@media screen and(max-width:800px) {
+  .works {
+    &__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 12.4vh;
+      padding-bottom: 12.2vh;
+      position: relative;
+
+      &__elem {
+        flex: 0 0 45%;
+        padding: 0 5px 8px 5px;
+        cursor: pointer;
+        &-img {
+          width: 99%;
+        }
+      }
+    }
+  }
+}

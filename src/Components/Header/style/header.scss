@@ -85,3 +85,19 @@
   background-color: rgba(118, 244, 234, 0.5);
   padding: 0 5px;
 }
+
+@media screen and(max-width: 800px) {
+  .header {
+    &__conatiner {
+      &__text {
+        margin-top: &__img {
+          width: 90vw;
+        }
+      }
+
+      &__logo {
+        width: 20vw;
+      }
+    }
+  }
+}

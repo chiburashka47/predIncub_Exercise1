@@ -121,3 +121,20 @@
     }
   }
 }
+
+@media screen and(max-width: 1200px) {
+  .contacts {
+    height: auto;
+
+    &__content {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+
+      &__right {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

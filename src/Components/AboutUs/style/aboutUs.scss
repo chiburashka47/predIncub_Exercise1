@@ -19,6 +19,7 @@
 
       &-img {
         width: 88%;
+        object-fit: contain;
       }
     }
 
@@ -65,6 +66,42 @@
         &-four {
           padding-top: 3px;
         }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 800px) {
+  .about {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__content {
+      flex-direction: column;
+
+      padding-top: 12.4vh;
+      padding-bottom: 14.8vh;
+      align-items: center;
+
+      &__left {
+        display: flex;
+
+        width: 80%;
+        padding: 0;
+        justify-content: center;
+
+        &-img {
+          width: 88%;
+          object-fit: contain;
+        }
+      }
+
+      &__right {
+        width: 80%;
       }
     }
   }
