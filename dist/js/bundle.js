@@ -66,7 +66,7 @@ const changeImg = (n) => {
     slideIndex = img.length;
   }
 
-  bigImg.src = `../src/Components/Works/style/${slideIndex - 1}.png`;
+  bigImg.src = `./src/Components/Works/style/${slideIndex - 1}.png`;
 };
 
 const plusSlides = (n) => {
