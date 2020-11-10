@@ -163,7 +163,6 @@ let team = [
 ];
 
 img.forEach((element, index) => {
-  element.src = `../src/Components/team/style/${team[index].img}.png`;
   name[index].textContent = team[index].name;
   position[index].textContent = team[index].position;
   desc[index].textContent = team[index].desc;
