@@ -33,17 +33,17 @@ input {
   flex-direction: column;
 }
 
-.pageTitle {
+.page__title {
   align-items: center;
   padding-top: 12.9vh;
 }
-.pageTitle-bold {
+.page__title-bold {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 2.6vw;
   text-transform: uppercase;
 }
-.pageTitle-regular {
+.page__title-regular {
   font-family: "Merriweather", serif;
   text-transform: uppercase;
   font-size: 1.34vw;
@@ -72,6 +72,7 @@ input {
   font-weight: 800;
   text-transform: uppercase;
   padding: 0 8px;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
 }
 .header__conatiner__juiceGlass {
   background-image: url(460775173dae45bea1612c933abf1e2f.png);
@@ -304,7 +305,7 @@ input {
   flex-direction: column;
   padding-bottom: 40vh;
 }
-.team .pageTitle {
+.team .page__title {
   padding-top: 9.3vh;
 }
 .team__content {
@@ -564,10 +565,10 @@ input {
 }
 
 @media screen and (max-width: 800px) {
-  .pageTitle-bold {
+  .page__title-bold {
     font-size: 4.6vw;
   }
-  .pageTitle-regular {
+  .page__title-regular {
     font-size: 2.34vw;
   }
 }
